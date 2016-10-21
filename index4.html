@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Centering in CSS</title>
+    <style media="screen">
+      .example4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .icon4a {
+        background-image: url(./images/1f44d.png);
+      }
+
+      .icon4b {
+        background-image: url(./images/1f44e.png);
+      }
+
+      .icon4c {
+        background-image: url(./images/1f44d.png);
+        margin-bottom: 18px;
+      }
+
+      .icon4d {
+        background-image: url(./images/1f44e.png);
+        margin-top: 25px;
+      }
+
+      .icon4e {
+        background-image: url(./images/1f590.png);
+        margin-bottom: 18px;
+      }
+
+      .icon4f {
+        background-image: url(./images/1f596.png);
+        margin-top: 25px;
+      }
+
+      .text4 {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>flexbox &amp; visual center</h2>
+    <h3>No compensation</h3>
+    <div class="example example4">
+      <div class="icon icon4a"></div>
+      <span class="text text4">This is my text</span>
+    </div>
+
+    <div class="example example4">
+      <div class="icon icon4b"></div>
+      <span class="text text4">This is my text</span>
+    </div>
+
+    <h3>Margins</h3>
+    <div class="example example4">
+      <div class="icon icon4c"></div>
+      <span class="text text4">This is my text</span>
+    </div>
+
+    <div class="example example4">
+      <div class="icon icon4d"></div>
+      <span class="text text4">This is my text</span>
+    </div>
+
+
+    <h3>Issues</h3>
+    <div class="example example4">
+      <div class="icon icon4e"></div>
+      <span class="text text4">This is my text</span>
+    </div>
+
+    <div class="example example4">
+      <div class="icon icon4f"></div>
+      <span class="text text4">This is my text</span>
+    </div>
+  </body>
+</html>

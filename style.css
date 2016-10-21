@@ -1,0 +1,31 @@
+html,
+body {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+.example {
+  display: block;
+  clear: both;
+}
+
+.text {
+  font-size: 20px;
+}
+
+.icon {
+  display: block;
+  width: 64px;
+  height: 80px;
+  background-size: 64px 64px;
+  background-repeat: no-repeat;
+  background-position: center;
+}

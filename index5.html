@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <title>Centering in CSS</title>
+    <style media="screen">
+      .example5 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .icon {
+        background-size: 64px 80px;
+      }
+
+      .icon5a {
+        background-image: url(./images/1f44d-2.png);
+      }
+
+      .icon5b {
+        background-image: url(./images/1f44e-2.png);
+      }
+
+      .icon5c {
+        background-image: url(./images/1f3f3-1f308.png);
+      }
+
+      .icon5d {
+        background-image: url(./images/1f4a5.png);
+      }
+
+      .icon5e {
+        background-image: url(./images/1f4aa.png);
+      }
+
+      .text5 {
+        flex: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>flexbox &amp; visual center GOOD</h2>
+    <div class="example example5">
+      <div class="icon icon5a"></div>
+      <span class="text text5">This is my text</span>
+    </div>
+
+    <div class="example example5">
+      <div class="icon icon5b"></div>
+      <span class="text text5">This is my text</span>
+    </div>
+
+    <div class="example example5">
+      <div class="icon icon5c"></div>
+      <span class="text text5">This is my text</span>
+    </div>
+
+    <div class="example example5">
+      <div class="icon icon5d"></div>
+      <span class="text text5">This is my text</span>
+    </div>
+
+    <div class="example example5">
+      <div class="icon icon5e"></div>
+      <span class="text text5">This is my text</span>
+    </div>
+  </body>
+</html>
